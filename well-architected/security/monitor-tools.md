@@ -1,16 +1,10 @@
 ---
 title: Azure security monitoring tools
 description: Use security monitoring tools in Azure. Also get general security advice, such as detecting threats early and protecting resources against DDoS attacks.
-author: v-aangie
-ms.author: robbymillsap
+author: martinekuan
+ms.author: martinek
 ms.date: 12/20/2021
 ms.topic: conceptual
-ms.service: architecture-center
-ms.subservice: well-architected
-products:
-  - azure-security-center
-  - azure-sentinel
-  - m365-security-center
 categories:
   - management-and-governance
 subject:
@@ -35,7 +29,7 @@ Azure provides several monitoring tools that observe the operations and detect a
 |[**Azure DDoS Protection**](/azure/virtual-network/ddos-protection-overview)| Defend against distributed denial of service (DDoS) attacks.|
 |[**Azure Rights Management (RMS)**](/azure/information-protection/what-is-azure-rms)| Protect files and emails across multiple devices.|
 |[**Microsoft Purview Information Protection**](/information-protection/develop/overview)| Secure email, documents, and sensitive data that you share outside your company.|
-|[**Azure Governance Visualizer**](https://github.com/microsoft/CloudAdoptionframework/tree/master/govern/AzureGovernanceVisualizer)|Gain granular insight into policies, Azure role-based access control (Azure RBAC), Azure Blueprints, subscriptions, and more.|
+|[**Azure Governance Visualizer**](https://aka.ms/alz/azgovviz)|Gain granular insight into policies, Azure role-based access control (Azure RBAC), Azure Blueprints, subscriptions, and more.|
 |[**PSRule for Azure**](https://aka.ms/ps-rule-azure)| Scans Azure Infrastructure as Code (IaC) artifacts for issues across Azure Well-Architected pillars.|
 
 ## Microsoft Defender for Cloud
@@ -54,11 +48,11 @@ Microsoft Sentinel and is a native control that combines SIEM and SOAR capabilit
 
 A Distributed Denial of Service (DDoS) attack attempts to exhaust an application's resources, making the application unavailable to legitimate users. DDoS attacks can be targeted at any endpoint that is publicly reachable through the internet.
 
-Every property in Azure is protected by Azure's infrastructure DDoS (Basic) Protection at no additional cost. The scale and capacity of the globally deployed Azure network provides defense against common network-layer attacks through always-on traffic monitoring and real-time mitigation. DDoS Protection Basic requires no user configuration or application changes. DDoS Protection Basic helps protect all Azure services, including PaaS services like Azure DNS.
+Every property in Azure is protected by Azure's infrastructure DDoS (Basic) Protection at no additional cost. The scale and capacity of the globally deployed Azure network provides defense against common network-layer attacks through always-on traffic monitoring and real-time mitigation. DDoS Infrastructure Protection requires no user configuration or application changes. DDoS Infrastructure Protection  helps protect all Azure services, including PaaS services like Azure DNS.
 
-Azure DDoS Protection Standard provides enhanced DDoS mitigation features to defend against DDoS attacks. It's automatically tuned to help protect your specific Azure resources in a virtual network. Protection is simple to enable on any new or existing virtual network, and it requires no application or resource changes. It has several advantages over the basic service, including logging, alerting, telemetry, SLA guarantee, and cost protection.
+Azure DDoS Protection provides enhanced DDoS mitigation features to defend against DDoS attacks. It's automatically tuned to help protect your specific Azure resources in a virtual network. Protection is simple to enable on any new or existing virtual network, and it requires no application or resource changes. It has several advantages over the basic service, including logging, alerting, telemetry, SLA guarantee, and cost protection.
 
-Azure DDoS Protection Standard is designed for [services that are deployed in a virtual network](/azure/virtual-network/virtual-network-for-azure-services). For other services, the default DDoS Protection Basic service applies. To learn more about supported architectures, see [DDoS Protection reference architectures](/azure/ddos-protection/ddos-protection-reference-architectures).
+Azure DDoS Network Protection is designed for [services that are deployed in a virtual network](/azure/virtual-network/virtual-network-for-azure-services). For other services, the default DDoS Infrastructure Protection service applies. To learn more about supported architectures, see [DDoS Protection reference architectures](/azure/ddos-protection/ddos-protection-reference-architectures).
 
 ## Azure Rights Management (RMS)
 
@@ -102,4 +96,4 @@ For frequently asked questions on Microsoft Defender for Cloud, see [FAQ - Gener
 
 For information on the Microsoft Sentinel tools that will help to meet these requirements, see [What is Microsoft Sentinel?](/azure/sentinel/overview#analytics)
 
-For types of DDoS attacks that DDoS Protection Standard mitigates as well as more features, see [Azure DDoS Protection Standard overview](/azure/virtual-network/ddos-protection-overview).
+For types of DDoS attacks that DDoS Protection mitigates as well as more features, see [Azure DDoS Protection overview](/azure/virtual-network/ddos-protection-overview).

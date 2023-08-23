@@ -2,13 +2,9 @@
 title: Secure app configuration and dependencies
 description: Review application security for IaaS and PaaS. Make sure your configuration is secure. Also check the dependencies, frameworks, and libraries.
 author: PageWriter-MSFT
-ms.author: robbymillsap
+ms.author: martinek
 ms.date: 12/08/2021
 ms.topic: conceptual
-ms.service: architecture-center
-ms.subservice: well-architected
-products:
-  - azure-key-vault
 categories:
   - security
 subject:

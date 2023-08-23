@@ -2,13 +2,9 @@
 title: Governance considerations for secure deployment in Azure
 description: Governance for CI/CD pipelines to make sure right access and work is executed.
 author: PageWriter-MSFT
-ms.author: robbymillsap
+ms.author: martinek
 ms.date: 12/08/2021
 ms.topic: conceptual
-ms.service: architecture-center
-ms.subservice: well-architected
-products:
-  - azure-devops
 categories:
   - security
 subject:
@@ -87,6 +83,7 @@ Having multiple branches is recommended where each branch has a purpose and acce
 - [About branches and branch policies](/azure/devops/repos/git/branch-policies-overview?view=azure-devops&preserve-view=true)
 - [Adopt a Git branching strategy](/azure/devops/repos/git/git-branching-guidance?view=azure-devops&preserve-view=true)
 - [Release deployment control using gates](/azure/devops/pipelines/release/approvals/gates?view=azure-devops&preserve-view=true)
+- [Azure Deployment Environments](/azure/deployment-environments/)
 
 ## Next
 

@@ -12,15 +12,12 @@ metadata:
   manager: scottboc
   ms.date: 08/07/2020
   ms.topic: landing-page
-  ms.service: architecture-center
-  ms.subservice: well-architected
   ms.collection: na
   ms.custom:
   - article
   - internal-intro
-  products:
-  - azure
-  - azure-cost-management
+  ms.service: waf
+  ms.subservice: waf-pillar-optimization
 
 landingContent:
 # Cards and links should be based on top customer tasks or top subjects
@@ -46,7 +43,7 @@ landingContent:
       - linkListType: learn
         links:
           - text: Cost optimization 
-            url: /learn/modules/azure-well-architected-introduction/3-cost-optimization
+            url: /training/modules/azure-well-architected-introduction/3-cost-optimization
       - linkListType: video
         links:
           - text: What trade-offs have you made to optimize for cost?
@@ -123,10 +120,10 @@ landingContent:
         links:
           - text: Autoscale instances
             url: optimize-autoscale.md
-          - text: Reserved instances
-            url: optimize-reserved.md
           - text: Right-size VMs
             url: optimize-vm.md
+          - text: Cache data
+            url: optimize-cache.md
       - linkListType: video
         links:
           - text: What actions are you taking to optimize cloud costs?

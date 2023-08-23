@@ -1,14 +1,12 @@
 ---
 title: Application Delivery (General) and reliability
 description: Focuses on the Application Delivery (General) service used in the Networking solution to provide best-practice, configuration recommendations, and design considerations related to Reliability.
-author: v-stacywray
-ms.author: robbymillsap
+author: martinekuan
+ms.author: martinek
 ms.date: 01/20/2022
 ms.topic: conceptual
-ms.service: architecture-center
-ms.subservice: well-architected
 products:
-  - application-delivery
+  - azure-virtual-network
 categories:
   - networking
   - management-and-governance
@@ -37,7 +35,7 @@ The following sections are specific to general Application Delivery and reliabil
 
 Application Delivery in Azure includes the following design considerations:
 
-- Azure Load Balancer (internal and public) provides high availability for application delivery at a regional level. (*Standard tier only*)
+- Azure Load Balancer (internal and public) provides high availability for application delivery at either a regional or global level. (*Standard tier only*)
 - Azure Traffic manager allows the delivery of applications through DNS redirection, including traffic using protocols other than `HTTP/S`.
 - Azure Front Door allows the secure delivery of highly available `HTTP/S` applications across Azure regions.
 - Azure Application Gateway allows the secure delivery of `HTTP/S` applications at a regional level.

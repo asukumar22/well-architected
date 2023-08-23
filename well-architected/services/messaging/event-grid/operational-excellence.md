@@ -1,14 +1,12 @@
 ---
 title: Event Grid and operational excellence
 description: Focuses on the Event Grid service used in the Messaging solution to provide best-practice, configuration recommendations, and design considerations related to Operational excellence.
-author: v-stacywray
-ms.author: robbymillsap
+author: martinekuan
+ms.author: martinek
 ms.date: 01/12/2022
 ms.topic: conceptual
-ms.service: architecture-center
-ms.subservice: well-architected
 products:
-  - event-grid
+  - azure-event-grid
 categories:
   - messaging
   - management-and-governance

@@ -2,17 +2,13 @@
 title: Implementing recommendations
 description: A guide for implementing recommendations for Well-Architected Review and Advisor Recommendations for continuous workload improvement.
 author: JoeyBarnes
-ms.author: robbymillsap
+ms.author: martinek
 ms.date: 03/24/2022
 ms.topic: conceptual
-ms.service: architecture-center
-ms.subservice: well-architected
 ms.custom:
   - guide
 keywords:
   - "Implementing Recommendations"
-products:
-  - azure-devops
 categories:
   - devops
   - management-and-governance

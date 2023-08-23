@@ -1,16 +1,11 @@
 ---
 title: Health monitoring
 description: Provides an overview of health modeling and monitoring as it relates to the Operational Excellence pillar.
-ms.author: robbymillsap
-author: v-stacywray
+ms.author: martinek
+author: martinekuan
 manager: robbymillsap
 ms.date: 05/09/2022
 ms.topic: conceptual
-ms.service: architecture-center
-ms.subservice: well-architected
-products:
-  - azure-monitor
-  - azure-application-insights
 categories:
   - management-and-governance
 ms.custom:

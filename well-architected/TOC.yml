@@ -22,6 +22,12 @@ items:
                 href: resiliency/app-design.md
               - name: Resiliency & dependencies
                 href: resiliency/design-resiliency.md
+              - name: Data management
+                href: resiliency/data-management.md
+              - name: Application resiliency
+                href: /azure/architecture/reliability/architect?toc=/azure/architecture/framework/toc.json&bc=/azure/architecture/framework/breadcrumb/toc.json
+              - name: Business metrics
+                href: resiliency/business-metrics.md
               - name: Best practices
                 href: resiliency/design-best-practices.md
           - name: Testing
@@ -158,6 +164,8 @@ items:
                 href: security/monitor-security-operations.md
           - name: Tradeoffs
             href: security/security-tradeoffs.md
+          - name: Security patterns
+            href: security/security-patterns.md
       - name: Cost Optimization
         items:
           - name: About
@@ -223,8 +231,6 @@ items:
                 href: cost/optimize-checklist.md
               - name: Autoscale
                 href: cost/optimize-autoscale.md
-              - name: Reserved instances
-                href: cost/optimize-reserved.md
               - name: VM instances
                 href: cost/optimize-vm.md
               - name: Caching
@@ -307,25 +313,27 @@ items:
             href: scalability/principles.md
           - name: Design
             items:
-              - name: Checklist
-                href: scalability/design-checklist.md
               - name: Distributed architecture challenges
                 href: scalability/design-distributed.md
-              - name: Application design
+              - name: Application performance
                 href: scalability/design-apps.md
               - name: Application efficiency
                 href: scalability/design-efficiency.md
-              - name: Scalability
+              - name: Application scalability
                 href: scalability/design-scale.md
-              - name: Capacity planning
+              - name: Application capacity
                 href: scalability/design-capacity.md
+              - name: Capacity best practices
+                href: scalability/capacity.md
           - name: Test
             items:
               - name: Checklist
                 href: scalability/test-checklist.md
               - name: Performance testing
                 href: scalability/performance-test.md
-              - name: Testing tools
+              - name: Load testing
+                href: scalability/load-testing.md
+              - name: Testing strategies
                 href: scalability/test-tools.md
           - name: Monitoring
             items:
@@ -337,7 +345,17 @@ items:
                 href: scalability/monitor-infrastructure.md
               - name: Performance data
                 href: scalability/monitor-analyze.md
-          - name: Performance Efficiency patterns
+              - name: Scalability and reliability
+                href: scalability/monitor-scalability-reliability.md
+          - name: Optimize
+            items:
+              - name: Sustain efficiency
+                href: scalability/optimize-sustain.md
+              - name: Partition data
+                href: scalability/optimize-partition.md
+              - name: Cache data
+                href: scalability/optimize-cache.md
+          - name: Performance efficiency patterns
             href: scalability/performance-efficiency-patterns.md
           - name: Checklist
             href: scalability/performance-efficiency.md
@@ -345,6 +363,32 @@ items:
             href: scalability/tradeoffs.md
       - name: Workloads
         items:
+          - name: Azure VMware Solution
+            items:
+              - name: Quick links
+                href: azure-vmware/index.yml
+              - name: Get started
+                href: azure-vmware/overview.md
+              - name: Design principles
+                href: azure-vmware/design-principles.md
+              - name: Design areas
+                items:
+                - name: Infrastructure
+                  href: azure-vmware/infrastructure.md
+                - name: Applications
+                  href: azure-vmware/application-platform.md
+                - name: Networking
+                  href: azure-vmware/networking.md
+                - name: Monitoring
+                  href: azure-vmware/monitoring.md
+                - name: Security
+                  href: azure-vmware/security.md
+                - name: Operations
+                  href: azure-vmware/operations.md
+              - name: Azure landing zone integration
+                href: azure-vmware/landing-zone-integration.md
+              - name: Assessment
+                href: azure-vmware/assessment.md
           - name: Mission-critical
             items:
               - name: Quick links
@@ -377,6 +421,26 @@ items:
                   href: mission-critical/mission-critical-security.md
                 - name: Operational procedures
                   href: mission-critical/mission-critical-operational-procedures.md
+              - name: Assessment tool
+                href: mission-critical/mission-critical-assessment.md
+          - name: Carrier-grade
+            items:
+              - name: Quick links
+                href: carrier-grade/index.yml
+              - name: Get started
+                href: carrier-grade/carrier-grade-get-started.md
+              - name: Design principles
+                href: carrier-grade/carrier-grade-design-principles.md 
+              - name: Design areas
+                items:
+                  - name: Fault tolerance
+                    href: carrier-grade/carrier-grade-design-area-fault-tolerance.md
+                  - name: Data model
+                    href: carrier-grade/carrier-grade-design-area-data-model.md
+                  - name: Health modeling
+                    href: carrier-grade/carrier-grade-design-area-health-modeling.md
+                  - name: Testing and validation
+                    href: carrier-grade/carrier-grade-design-area-testing.md                  
           - name: Hybrid
             items:
               - name: Overview
@@ -405,6 +469,68 @@ items:
                 href: iot/iot-operational-excellence.md
               - name: Performance Efficiency
                 href: iot/iot-performance.md
+          - name: Oracle
+            items:
+              - name: Overview
+                href: oracle-iaas/overview.md
+              - name: Reliability
+                href: oracle-iaas/reliability.md
+              - name: Security
+                href: oracle-iaas/security.md
+              - name: Cost Optimization
+                href: oracle-iaas/cost-optimization.md
+              - name: Operational Excellence
+                href: oracle-iaas/operational-excellence.md
+              - name: Performance Efficiency
+                href: oracle-iaas/performance-efficiency.md
+          - name: SAP
+            items:
+              - name: Quick links
+                href: sap/quick-links.yml
+              - name: Get started
+                href: sap/get-started.md
+              - name: Design principles
+                href: sap/design-principles.md
+              - name: Design areas
+                items:
+                  - name: Application design
+                    href: sap/design-areas/application-design.md
+                  - name: Application platform
+                    href: sap/design-areas/application-platform.md
+                  - name: Data platform
+                    href: sap/design-areas/data-platform.md
+                  - name: Networking and connectivity
+                    href: sap/design-areas/networking-and-connectivity.md
+                  - name: Security
+                    href: sap/design-areas/security.md
+                  - name: Operational procedures
+                    href: sap/design-areas/operational-procedures.md
+          - name: Sustainability
+            items:
+              - name: Quick links
+                href: sustainability/index.yml
+              - name: Get started
+                href: sustainability/sustainability-get-started.md
+              - name: Design methodology
+                href: sustainability/sustainability-design-methodology.md
+              - name: Design principles
+                href: sustainability/sustainability-design-principles.md
+              - name: Design areas
+                items:
+                - name: Application design
+                  href: sustainability/sustainability-application-design.md
+                - name: Application platform 
+                  href: sustainability/sustainability-application-platform.md
+                - name: Testing
+                  href: sustainability/sustainability-testing.md
+                - name: Operational procedures
+                  href: sustainability/sustainability-operational-procedures.md
+                - name: Networking and connectivity
+                  href: sustainability/sustainability-networking.md
+                - name: Storage
+                  href: sustainability/sustainability-storage.md
+                - name: Security
+                  href: sustainability/sustainability-security.md
       - name: Services
         items:
           - name: Compute
@@ -452,9 +578,7 @@ items:
                   - name: Cost optimization
                     href: services/data/azure-db-mysql/cost-optimization.md
               - name: Azure Database for PostgreSQL
-                items:
-                  - name: Cost optimization
-                    href: services/data/azure-db-postgresql/cost-optimization.md
+                href: services/data/azure-db-postgresql-well-architected-framework.md
               - name: Azure SQL Database
                 href: services/data/azure-sql-database-well-architected-framework.md
               - name: Azure SQL Managed Instance
@@ -463,7 +587,7 @@ items:
                     href: services/data/azure-sql-managed-instance/reliability.md
                   - name: Operational excellence
                     href: services/data/azure-sql-managed-instance/operational-excellence.md
-              - name: Cosmos DB
+              - name: Azure Cosmos DB
                 items:
                   - name: Reliability
                     href: services/data/cosmos-db/reliability.md
